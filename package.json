@@ -1,0 +1,34 @@
+{
+  "name": "@ai-native-solutions/posthog-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sovereign SDK wrapper for PostHog",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "Analytics",
+    "posthog",
+    "sovereign",
+    "estate",
+    "ai-native-solutions"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/posthog-sdk.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
